@@ -4,8 +4,9 @@
 
     <h1>Register</h1>
     <form action="/register" method="post">
-        <input autocomplete="off" autofocus name="name" placeholder="Name" type="text">
+        <input autocomplete="off" autofocus name="name" placeholder="Name" required type="text">
         <select name="sport" id="">
+            <option disabled selected value="">Select a sport</option>
             <option value="basketball">Basketball</option>
             <option value="soccer">Soccer</option>
             <option value="ultimate-frisbee">Ultimate Frisbee</option>
